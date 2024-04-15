@@ -1,0 +1,37 @@
+[
+  {
+    "link": "https://www.youtube.com/channel/UCDPLmnOcJFRaHWBGbRPB9yw",
+    "icon": "/assets/youtube.svg",
+    "platform": "YOUTUBE"
+  },
+  {
+    "link": "https://www.twitch.tv/giannidona",
+    "icon": "/assets/twitch.svg",
+    "platform": "TWITCH"
+  },
+  {
+    "link": "https://twitter.com/giannidona_dev",
+    "icon": "/assets/x.svg",
+    "platform": "X"
+  },
+  {
+    "link": "https://www.linkedin.com/in/gianidonato/",
+    "icon": "/assets/linkedin.svg",
+    "platform": "LINKEDIN"
+  },
+  {
+    "link": "https://github.com/giannidona",
+    "icon": "/assets/github.svg",
+    "platform": "GITHUB"
+  },
+  {
+    "link": "https://gianluca-donato.vercel.app/",
+    "icon": "/assets/link.svg",
+    "platform": "PORTFOLIO"
+  },
+  {
+    "link": "https://giannidona-newsletter.netlify.app/",
+    "icon": "/assets/link.svg",
+    "platform": "NEWSLETTER"
+  }
+]

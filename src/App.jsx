@@ -1,35 +1,27 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import "./App.css";
+import LinkCard from "./components/LinkCard";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+      <h1 className="text-white text-2xl mt-5 mb-2 font-bold">FIND ME</h1>
+      <h2 className="text-white font-semibold">Gianluca Donato Links</h2>
+      <div className="h-[500px] w-[350px] mx-auto my-5 bg-gray-500 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-20 border border-gray-100">
+        <LinkCard />
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
+      <p className="text-white text-lg font-semibold">
+        built by{" "}
+        <a
+          href="https://github.com/giannidona"
+          target="_blank"
+          className="underline"
+        >
+          giannidona
+        </a>
+        🤍
       </p>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
